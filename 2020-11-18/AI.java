@@ -1,3 +1,4 @@
+//未使用for循环和一维数组优化
 import javax.microedition.lcdui.*;
 import javax.microedition.midlet.*;
 import java.io.*;
