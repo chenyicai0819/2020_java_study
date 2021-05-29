@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LibrarySystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LibrarySystem_jar</output-path>
+    <root id="archive" name="LibrarySystem.jar">
+      <element id="module-output" name="LibrarySystem" />
+      <element id="extracted-dir" path="F:/a蓝桥/点餐系统/commons-codec-1.15-bin/commons-codec-1.15/commons-codec-1.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/app/swagg/product/11.2.0/client_1/jdbc/lib/ojdbc6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
