@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加图书</title>
+    <style>
+        #form2{
+            width: 1000px;
+            height: 50px;
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        document.getElementById("tj").onclick=function (){
+            alert("添加成功");
+        }
+    </script>
+</head>
+<body>
+<form action="insert.do" method="get" id="form2">
+    <input type="bid" name="bid" placeholder="ID">
+    <input type="sname" name="sname" placeholder="状态" disabled="disabled" value="入藏">
+    <input type="bname" name="bname" placeholder="书籍名">
+    <input type="bauthor" name="bauthor" placeholder="作者">
+    <select name="bhome">
+        <option value="一楼">一楼</option>
+        <option value="二楼">二楼</option>
+        <option value="三楼">三楼</option>
+    </select>
+    <input type="submit" id="tj" value="添加">
+</form>
+
+</body>
+</html>
+
