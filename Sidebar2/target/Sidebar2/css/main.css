@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#div1{
+    width: 200px;
+    height: 500px;
+}
+#first{
+    list-style: none;
+}
+
+#first li{
+    width: 100%;
+    position: relative;
+    top: 0px;
+
+}
+#first>li a{
+    width: 80%;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+#first>li>img{
+    position: absolute;
+    left: 170px;
+    top: 15px;
+    -ms-transform:rotate(0deg); /* IE 9 */
+    -webkit-transform:rotate(0deg); /* Safari and Chrome */
+    transform:rotate(0deg);
+}
+.father{
+    background-color: #393D49;
+}
+.son{
+    background-color: #282B33;
+}
